@@ -12,3 +12,5 @@ cp ~/Documents/MyPapers/csl/styles/american-medical-association.csl .
 cp ~/Documents/MyPapers/csl/margins.sty .
 # copy compile-manuscript script
 cp ~/Documents/Scripts/paper-compiler/compile-manuscript.sh .
+# create a figure folder
+mkdir figures
