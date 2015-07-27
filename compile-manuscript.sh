@@ -1,9 +1,9 @@
 # Make figures
 #pandoc -H margins.sty list_of_figures.md -o list_of_figures.pdf
 # Make the manuscript
-pandoc -H margins.sty --bibliography library.bib --csl american-medical-association.csl manuscript.md -o manuscript.pdf
+pandoc -H margins.sty --bibliography  ~/Documents/MyPapers/library.bib --csl american-medical-association.csl manuscript.md -o manuscript.pdf
 # Make Word file
-pandoc -H margins.sty --bibliography library.bib --csl american-medical-association.csl manuscript.md -o manuscript.docx
+pandoc -H margins.sty --bibliography  ~/Documents/MyPapers/library.bib --csl american-medical-association.csl manuscript.md -o manuscript.docx
 # Combine the two using PDFtools (pdftools@skynet.be)
 #pdfcat git_manuscript.pdf list_of_figures.pdf > git_ms.pdf
 # Remove duplicate files and rename concated one to original name
