@@ -3,14 +3,15 @@
 ###################################
 
 # create new markdown document
-touch manuscript.md 
+touch manuscript.md
+touch title.md
 # copy the latest bibliography from Mendeley's export
-cp ~/Documents/MyPapers/library.bib .
+#cp ~/Documents/MyPapers/library.bib .
 # copy the citation style
-cp ~/Documents/MyPapers/csl/styles/american-medical-association.csl .
+#cp ~/Documents/MyPapers/csl/styles/american-medical-association.csl .
 # copy the margin style
-cp ~/Documents/MyPapers/csl/margins.sty .
+#cp ~/Documents/MyPapers/csl/margins.sty .
 # copy compile-manuscript script
-cp ~/Documents/Scripts/paper-compiler/compile-manuscript.sh .
-# create a figure folder
+#cp ~/Documents/Scripts/paper-compiler/compile-manuscript.sh .
+# create folders
 mkdir figures
