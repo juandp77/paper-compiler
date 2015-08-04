@@ -16,3 +16,4 @@ touch README.md
 #cp ~/Documents/Scripts/paper-compiler/compile-manuscript.sh .
 # create folders
 mkdir figures
+mkdir output
