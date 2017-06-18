@@ -17,3 +17,4 @@ touch README.md
 # create folders
 mkdir figures
 mkdir output
+mkdir database
