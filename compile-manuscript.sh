@@ -6,10 +6,10 @@
 # Make figures
 #pandoc -H margins.sty list_of_figures.md -o list_of_figures.pdf
 # Make the manuscript
-pandoc -H ~/Dropbox/MyPapers/csl/margins.sty --bibliography  ~/Dropbox/MyPapers/library.bib --csl ~/Dropbox/MyPapers/csl/styles/journal-of-neurosurgery.csl manuscript.md -o manuscript.pdf
+pandoc -H ~/Documents/MyPapers/csl/margins.sty --bibliography  ~/Documents/references/library.bib --csl ~/Documents/MyPapers/csl/styles/journal-of-neurosurgery.csl manuscript.md -o manuscript.pdf
 # Make Word file
-pandoc -H ~/Dropbox/MyPapers/csl/margins.sty --bibliography  ~/Dropbox/MyPapers/library.bib --csl ~/Dropbox/MyPapers/csl/styles/journal-of-neurosurgery.csl manuscript.md -o manuscript.docx
-pandoc -H ~/Dropbox/MyPapers/csl/margins.sty title.md -o title.docx
+pandoc -H ~/Documents/MyPapers/csl/margins.sty --bibliography  ~/Documents/references/library.bib --csl ~/Documents/MyPapers/csl/styles/journal-of-neurosurgery.csl manuscript.md -o manuscript.docx
+pandoc -H ~/Documents/MyPapers/csl/margins.sty title.md -o title.docx
 # Combine the two using PDFtools (pdftools@skynet.be)
 #pdfcat git_manuscript.pdf list_of_figures.pdf > git_ms.pdf
 # Remove duplicate files and rename concated one to original name
