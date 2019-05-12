@@ -9,14 +9,14 @@
 pandoc -H ~/Documents/MyPapers/csl/margins.sty --bibliography  ~/Documents/references/library.bib --csl ~/Documents/MyPapers/csl/styles/journal-of-neurosurgery.csl manuscript.md -o manuscript.pdf
 # Make Word file
 pandoc -H ~/Documents/MyPapers/csl/margins.sty --bibliography  ~/Documents/references/library.bib --csl ~/Documents/MyPapers/csl/styles/journal-of-neurosurgery.csl manuscript.md -o manuscript.docx
-pandoc -H ~/Documents/MyPapers/csl/margins.sty title.md -o title.docx
+#pandoc -H ~/Documents/MyPapers/csl/margins.sty title.md -o title.docx
 # Combine the two using PDFtools (pdftools@skynet.be)
 #pdfcat git_manuscript.pdf list_of_figures.pdf > git_ms.pdf
 # Remove duplicate files and rename concated one to original name
 #rm list_of_figures.pdf
 #rm git_manuscript.pdf
 mv manuscript.docx output/manuscript.docx
-mv title.docx output/title.docx
+#mv title.docx output/title.docx
 mv manuscript.pdf output/manuscript.pdf
 
 #pandoc -H margins.sty --bibliography library.bib --csl plos.csl git_manuscript.md -o git_manuscript.tex

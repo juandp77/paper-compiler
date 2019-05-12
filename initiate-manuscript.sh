@@ -4,7 +4,7 @@
 
 # create new markdown document
 touch manuscript.md
-touch title.md
+#touch title.md
 touch README.md
 # copy the latest bibliography from Mendeley's export
 #cp ~/Documents/MyPapers/library.bib .
