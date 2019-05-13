@@ -17,7 +17,7 @@ pandoc -H ~/Documentos/GitHub/paper-compiler/csl/margins.sty --bibliography  ~/D
 #rm git_manuscript.pdf
 mv manuscript.docx output/manuscript.docx
 #mv title.docx output/title.docx
-mv manuscript.pdf output/manuscript.pdf
+#mv manuscript.pdf output/manuscript.pdf
 
 #pandoc -H margins.sty --bibliography library.bib --csl plos.csl git_manuscript.md -o git_manuscript.tex
 #pandoc -H margins.sty list_of_figures.md -o list_of_figures.tex
