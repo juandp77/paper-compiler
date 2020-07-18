@@ -11,4 +11,4 @@ A workflow to write  scientific documents using markdown and pandoc inspired by 
 
 ## Usage:
 
-There are two scripts the first one, initiate-manuscript.sh creates all the files nedeed in order to make the paper, the second one, compile-manuscript.sh uses pandoc to make a .pdf and .docx files from manuscript.md 
+There are two scripts, the first one, initiate-manuscript.sh creates all the files nedeed in order to make the paper, the second one, compile-manuscript.sh uses pandoc to make a .pdf and .docx files from manuscript.md 
