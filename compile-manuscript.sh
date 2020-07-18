@@ -1,6 +1,6 @@
 
 ###################################
-# Compile docs by juandp77 #
+#     Compile docs by juandp77    #
 ###################################
 
 # Make figures
