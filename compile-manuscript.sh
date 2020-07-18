@@ -6,9 +6,9 @@
 # Make figures
 #pandoc -H margins.sty list_of_figures.md -o list_of_figures.pdf
 # Make the manuscript
-pandoc -H ~/Documents/MyPapers/csl/margins.sty --bibliography  ~/Documents/references/library.bib --csl ~/Documents/MyPapers/csl/styles/journal-of-neurosurgery.csl manuscript.md -o manuscript.pdf
+pandoc -H ~/Documents/github/paper-compiler/csl/margins.sty --bibliography  ~/Documents/github/paper-compiler/references/library.bib --csl ~/Documents/github/paper-compiler/csl/styles/journal-of-neurosurgery.csl manuscript.md -o manuscript.pdf
 # Make Word file
-pandoc -H ~/Documents/MyPapers/csl/margins.sty --bibliography  ~/Documents/references/library.bib --csl ~/Documents/MyPapers/csl/styles/journal-of-neurosurgery.csl manuscript.md -o manuscript.docx
+pandoc -H ~/Documents/github/paper-compiler/csl/margins.sty --bibliography  ~/Documents/github/paper-compiler/references/library.bib --csl ~/Documents/github/paper-compiler/csl/styles/journal-of-neurosurgery.csl manuscript.md -o manuscript.docx
 #pandoc -H ~/Documents/MyPapers/csl/margins.sty title.md -o title.docx
 # Combine the two using PDFtools (pdftools@skynet.be)
 #pdfcat git_manuscript.pdf list_of_figures.pdf > git_ms.pdf
