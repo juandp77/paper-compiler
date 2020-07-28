@@ -6,7 +6,7 @@
 # Make figures
 #pandoc -H margins.sty list_of_figures.md -o list_of_figures.pdf
 # Make the manuscript
-pandoc -H ~/Documents/github/paper-compiler/csl/margins.sty --bibliography  ~/Documents/github/paper-compiler/library.bib --csl ~/Documents/github/paper-compiler/csl/styles/journal-of-neurosurgery.csl manuscript.md -o manuscript.pdf
+#pandoc -H ~/Documents/github/paper-compiler/csl/margins.sty --bibliography  ~/Documents/github/paper-compiler/library.bib --csl ~/Documents/github/paper-compiler/csl/styles/journal-of-neurosurgery.csl manuscript.md -o manuscript.pdf
 # Make Word file
 pandoc -H ~/Documents/github/paper-compiler/csl/margins.sty --bibliography  ~/Documents/github/paper-compiler/library.bib --csl ~/Documents/github/paper-compiler/csl/styles/journal-of-neurosurgery.csl manuscript.md -o manuscript.docx
 #pandoc -H ~/Documents/MyPapers/csl/margins.sty title.md -o title.docx
@@ -17,7 +17,7 @@ pandoc -H ~/Documents/github/paper-compiler/csl/margins.sty --bibliography  ~/Do
 #rm git_manuscript.pdf
 mv manuscript.docx output/manuscript.docx
 #mv title.docx output/title.docx
-mv manuscript.pdf output/manuscript.pdf
+#mv manuscript.pdf output/manuscript.pdf
 
 #pandoc -H margins.sty --bibliography library.bib --csl plos.csl git_manuscript.md -o git_manuscript.tex
 #pandoc -H margins.sty list_of_figures.md -o list_of_figures.tex
